@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job application website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Job Application 
+                <span class="text_small">(Web)</span>
+            </h1>
+                <form action="">
+                    <div class="form_container">
+                        <div class="form_control">
+                            <lable for="first_name">First name:</lable>
+                            <input id="first_name" name="first_name" placeholder="Enter first_name">
+                        </div>
+                        <div class="form_control">
+                            <lable for="last_name">Last name:</lable>
+                            <input id="last_name" name="last_name" placeholder="Enter Last_name">
+                        </div>
+                        <div class="form_control">
+                            <lable for="e-mail">E-mail:</lable>
+                            <input type="email" id="e-mail" name="e-mail" placeholder="Enter e-mail id">
+                        </div>
+                        <div class="form_control">
+                            <lable for="job-role">Job role</lable>
+                            <select id="job-role" name="job-role">
+                                <option value="">select job roll</option>
+                                <option value="Frontend developer">Frontend developer</option>
+                                <option value="Backend developer">Backend developer</option>
+                                <option value="ux/ui Desiner">ux/ui Desiner</option>
+                                <option value="Fullstack developer">Fullstack developer</option>
+                            </select>
+                        </div>
+                        <div class="textarea_control">
+                            <lable for="Address">Address</lable>
+                            <textarea 
+                            id="address" 
+                            name="address" 
+                            row="4" 
+                            cols="50" 
+                            placeholder="Enter address">
+                            </textarea>  
+                        </div>
+                        <div class="form_control">
+                            <lable for="city">city:</lable>
+                            <input  id="city" name="city" placeholder="city">
+                        </div>
+                        <div class="form_control">
+                            <lable for="pincode">pincode:</lable>
+                            <input type="number"  id="pincode" name="pincode" placeholder="pincode">
+                        </div>
+                        <div class="form_control">
+                            <lable for="date">date:</lable>
+                            <input value="2025-01-5"  type="date"  id="date" name="date" placeholder="date">
+                        </div>
+                        <div class="form_control">
+                            <lable for="file">Uplode file:</lable>
+                            <input type="file"  id="uplode file" name="uplode file" placeholder="choose_file">
+                        </div>
+                    </div>
+                    <div class="button_container">
+                        <button id="submit" name="submit">Apply now</button>
+                    </div>
+                </form>
+        </div>
+    </div>
+</body>
+</html>
